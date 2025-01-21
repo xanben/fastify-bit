@@ -6,4 +6,4 @@ app.get('/', (request, reply) => {
     reply.send({info: 'Fastify Bit'});
 });
 
-await app.listen({port: 3000});
+await app.listen({port: process.env.API_PORT || 3000});
