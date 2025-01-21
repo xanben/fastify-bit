@@ -1,0 +1,12 @@
+{
+  "name": "fastify-bit",
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "fastify": "^5.2.1"
+  }
+}
