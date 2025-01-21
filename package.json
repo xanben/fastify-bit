@@ -9,6 +9,7 @@
     "dev": "tsx watch --env-file=.env src/server.ts"
   },
   "dependencies": {
+    "@fastify/autoload": "^6.0.3",
     "fastify": "^5.2.1"
   },
   "devDependencies": {
