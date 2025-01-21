@@ -17,5 +17,5 @@ You can run this project simply by:
 
 ```bash
 npm i
-npm start
+npm run dev
 ```
